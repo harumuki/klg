@@ -6,6 +6,6 @@ describe("Content presence", () => {
   })
 
   it("Has logo in navigation", () => {
-    cy.get('[data-test=logo]').should('contain', 'Magda Klag')
+    cy.get('[data-test=logo]').should('contain', 'Trần Thùy Chinh')
   })
 })

@@ -48,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({ largeDecoration }) => {
                 <span data-test="logo" className="lowercase font-bold text-lg">
                   <Link to="/" className="outline-none headerLogo">
                     <span tabIndex={-1} className="outline-none">
-                      Magda Klag
+                      Trần Thùy Chinh
                     </span>
                   </Link>
                 </span>

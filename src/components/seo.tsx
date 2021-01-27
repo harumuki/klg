@@ -52,36 +52,36 @@ const SEO: React.FC<SEOProps> = ({ description, lang, meta, title, image }) => {
   const metaImage =
     image && image.src
       ? [
-          {
-            property: "og:image",
-            content: `${site.siteMetadata.siteUrl}${image.src}`,
-          },
-          {
-            property: "og:image:width",
-            content: image.width,
-          },
-          {
-            property: "og:image:height",
-            content: image.height,
-          },
-          {
-            name: "twitter:card",
-            content: "summary_large_image",
-          },
-        ]
+        {
+          property: "og:image",
+          content: `${site.siteMetadata.siteUrl}${image.src}`,
+        },
+        {
+          property: "og:image:width",
+          content: image.width,
+        },
+        {
+          property: "og:image:height",
+          content: image.height,
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+      ]
       : [
-          {
-            name: "twitter:card",
-            content: "summary",
-          },
-        ]
+        {
+          name: "twitter:card",
+          content: "summary",
+        },
+      ]
 
   return (
     <Helmet
       htmlAttributes={{
         lang: lang || `pl`,
       }}
-      title={title || `Magda Klag`}
+      title={title || `Bất động sản nhà đất căn hộ Trần Thùy Chinh`}
       titleTemplate={title ? `%s | ${site.siteMetadata.title}` : `%s`}
       meta={[
         {
