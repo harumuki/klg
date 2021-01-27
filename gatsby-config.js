@@ -24,8 +24,8 @@ const plugins = [
   {
     resolve: "gatsby-plugin-manifest",
     options: {
-      name: "Magda Klag",
-      short_name: "Magda Klag",
+      name: "Bất động sản nhà đất căn hộ Trần Thùy Chinh",
+      short_name: "Bất động sản nhà đất căn hộ Trần Thùy Chinh",
       start_url: "/",
       background_color: "#ffffff",
       theme_color: "#ffffff",
@@ -59,10 +59,10 @@ const plugins = [
 
 module.exports = {
   siteMetadata: {
-    title: "Magda Klag",
+    title: "Bất động sản nhà đất căn hộ Trần Thùy Chinh",
     description: "Design",
-    author: "Magda Klag",
-    creator: "Tymek.Cz",
+    author: "Phạm Xuân Tiếp",
+    creator: "tiep.us",
     publisher: "Scroll-Lock.pl",
     siteUrl: 'https://magdaklag.pl',
     repository: 'https://github.com/Tymek/klg',
